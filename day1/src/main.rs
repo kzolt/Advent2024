@@ -11,7 +11,7 @@ fn main() {
 
     let mut right_hash: HashMap<i32, i32> = HashMap::new();
 
-   for line in input.lines() {
+    for line in input.lines() {
         let (left, right) = line.split_once("   ").expect("Failed to split line");
 
         left_list.push(left.parse().expect("Failed to parse left value"));
